@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: iransans;
+}
+
+body {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('./assets/fonts/iransans.ttf') format('truetype');
+}
+* {
+    font-family: iransans !important;
+    text-decoration: none;
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+a {
+    font-family: iransans !important;
+    text-decoration: none;
+}
+
+a:hover {
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+[class*="AppBar-toolbar"]{
+    background-color: #3f51b5;
+    padding-right: 12px !important;
+}
+[class*="MuiInputLabel-formControl"]{
+    left: unset !important;
+}
+[class*="MuiSwitch-root"] {
+    direction: ltr !important;
+} 
+
+[class*="TabbedForm-form"]{
+    padding-top: 18px;
+    padding-right: 23px;
+}
+.MuiDivider-inset-159,.MuiDivider-inset-162,.MuiDivider-root-160 {
+    margin-left: 0 !important;
+}
+.MuiDivider-root-160 {
+    margin: 38px 0 !important;
+}
+ [class*="MenuItemLink-icon"] {
+    padding-left: 24px;
+} 
+[class*="MuiButton-sizeSmall"] {
+    padding: 7px 26px !important;
+}
+[class*="Logout-iconPaddingStyle"] {
+    margin-left: 5px !important;
+}
+[class*="Pagination-desktopToolbar-"]{
+    direction: ltr !important;
+}
+[class*="MuiSelect-icon"] {
+    left: 0;
+    right: unset !important;
+}
+[class*="MuiInputLabel-shrink"]{
+    transform-origin: top right !important;
+}
+[class*="MenuItemLink-icon"]{
+   padding-right: 1px !important;
+}
+[class*="AppBar-menuButton"]{
+    margin-right: -1px !important;
+}
+[class*="MuiDrawer-paperAnchorLeft"]{
+    left: -4px !important;
+}
+[class*="MuiSelect-select"]{
+    padding-right: 5px !important;
+}
+[class*="SaveButton-iconPaddingStyle"]{
+    padding-left: 0.5em !important;
+    padding-right: 0 !important;
+}
+[class*="MuiButton-raisedPrimar"]{
+    background-color: rgb(37, 152, 42) !important;
+}
+[class*="MuiToolbar-gutters"]{
+    padding-right: 0 !important;
+}
+[class*="SaveButton-button"]{
+    margin:10px 10px !important;
+ }
+ [class*="SimpleFormIterator-leftIcon"]{
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+ }
+ [class*="MuiButton-sizeSmall"]{
+    margin-top: 16px !important;
+ }
+ [class*="MuiTableCell-head"]{
+    color: rgb(63, 81, 181) !important;
+    font-weight: bold !important;
+ }
+ [class*="MuiTableCell-paddingNone"]{
+    padding: 4px 56px 4px 24px !important;
+ }
+ [class*="MenuItemLink-active"]{
+    color: rgb(63, 81, 181) !important;
+    font-weight: bold;
+}
+[class*="MuiTypography-gutterBottom"]{
+    margin-right: 25px !important;
+}
+[class*="Pagination-desktopToolbar"]{
+    padding-right: 62px !important;
+}

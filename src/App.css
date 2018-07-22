@@ -1,0 +1,10 @@
+.AP-current-page {
+    text-decoration: underline;
+}
+
+#root label {
+    /* -webkit-transform-origin: top right !important; */
+    /* -ms-transform-origin: top right !important; */
+    /* transform-origin: top right !important; */
+    left: unset !important;
+}

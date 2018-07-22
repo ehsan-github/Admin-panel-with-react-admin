@@ -1,0 +1,33 @@
+{
+  "name": "admin-panel",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://91.109.23.203/api",
+  "homepage": "http://bitooman.ir/adminpanel",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.0.0",
+    "jalali-moment": "^3.1.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "query-string": "^6.1.0",
+    "ra-data-json-server": "^2.0.0",
+    "ramda": "^0.25.0",
+    "react": "^16.3.1",
+    "react-admin": "^2.0.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "socket.io-client": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
